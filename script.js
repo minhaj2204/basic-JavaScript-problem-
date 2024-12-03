@@ -48,3 +48,22 @@ myFunction()
  /* this the call function . but it's don't show the output because alert message
  
 is only show in web . for see the output i link this code with html file */
+
+
+
+// object creating and alart massage 
+
+
+const person = {
+
+    name : "John",
+    age : 50
+
+}
+
+alert( person.name + " is " + person.age )      //this line access the object into alert message
+
+/* and again the same problem - it's don't show the output because alert message
+ 
+is only show in web */
+
