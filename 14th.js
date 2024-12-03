@@ -3,7 +3,7 @@
 
 function findSmallestNum ( arr ) {
 
-  return Math.min ( arr ) ;
+  return Math.min ( ...arr ) ; //without this (...) three dots code is not working
 
 }
 
