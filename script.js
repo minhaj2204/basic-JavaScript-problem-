@@ -27,8 +27,24 @@ let length = 16 ;             // length data type is number
 let lastName = "Johnson" ;                 // last name data type is string
 
 const x = {
-    
+
     firstName : "John" ,
     lastName : "Doe"
 
 } ;               // (const x)  data type is object
+
+
+// function and it's massage
+
+
+function myFunction () {
+
+    alert("Hello World!");
+
+}
+
+myFunction()         
+
+ /* this the call function . but it's don't show the output because alert message
+ 
+is only show in web . for see the output i link this code with html file */
